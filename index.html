@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Slider</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+
+    <!-- container -->
+    <div class="my-20 mx-auto flex justify-center items-center gap-6 ">
+        <!-- left arrow -->
+        <button>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5_solid_arrow-circle-right.svg/768px-Font_Awesome_5_solid_arrow-circle-right.svg.png"
+                alt="" class="left-arrow h-10 w-10  rotate-180">
+        </button>
+        <!-- slider frame -->
+        <div class="w-[800px] h-[400px] rounded overflow-hidden shadow-2xl shadow-red-600 ">
+            <!-- images -->
+            <div class="slider flex flex-row">
+                <img src="./images/1.jpg" alt="" class="images">
+                <img src="./images/2.jpg" alt="" class="images">
+                <img src="./images/3.jpg" alt="" class="images">
+                <img src="./images/4.jpg" alt="" class="images">
+            </div>
+        </div>
+        <!-- right arrow -->
+        <button>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5_solid_arrow-circle-right.svg/768px-Font_Awesome_5_solid_arrow-circle-right.svg.png"
+                alt="" class="right-arrow h-10 w-10">
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
